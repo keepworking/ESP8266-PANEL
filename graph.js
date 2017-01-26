@@ -1,3 +1,6 @@
+google.charts.load('current', {'packages':['corechart']});
+google.charts.setOnLoadCallback(drawChart);
+
 var data = google.visualization.arrayToDataTable([
       ['Year', 'Sales'],
       ['2004',  1000],
